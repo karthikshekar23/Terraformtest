@@ -1,5 +1,5 @@
 module "sqlserverid" {
-    source = "github.com/DubberSoftware/dubber-terraform-modules/tree/master/msteams-ad-sync/modules/mssql"
+    source = "github.com/karthikshekar23/Terraformtest/tree/master/mssql"
 }
 
 resource "azurerm_mssql_firewall_rule" "adsync-firewall-1" {

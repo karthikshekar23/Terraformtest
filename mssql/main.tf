@@ -1,9 +1,9 @@
 module "sqlrg" {
-  source = "github.com/DubberSoftware/dubber-terraform-modules/tree/master/msteams-ad-sync/modules/ResourceGroups"
+  source = "github.com/karthikshekar23/Terraformtest/tree/master/ResourceGroups"
 }
 
 module "sqlrgloc" {
-  source = "github.com/DubberSoftware/dubber-terraform-modules/tree/master/msteams-ad-sync/modules/ResourceGroups"
+  source = "github.com/karthikshekar23/Terraformtest/tree/master/ResourceGroups"
 }
 
 

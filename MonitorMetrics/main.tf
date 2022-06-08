@@ -1,9 +1,9 @@
 module "redisrg" {
-  source = "github.com/DubberSoftware/dubber-terraform-modules/tree/master/msteams-ad-sync/modules/ResourceGroups"
+  source = "github.com/karthikshekar23/Terraformtest/tree/master/ResourceGroups"
 }
 
 module "redis_id" {
-  source = "github.com/DubberSoftware/dubber-terraform-modules/tree/master/msteams-ad-sync/modules/Redis"
+  source = "github.com/karthikshekar23/Terraformtest/tree/master/Redis"
 }
 
 resource "azurerm_monitor_metric_alert" "memory_warning" {
